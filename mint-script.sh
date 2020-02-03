@@ -58,7 +58,7 @@ sudo apt install vlc -y
 sudo apt install qbittorrent -y
 
 #Codecs
-sudo apt install mint-meta-codecs
+sudo apt install mint-meta-codecs -y
 
 ## THEMES AND ICONS ##
 
