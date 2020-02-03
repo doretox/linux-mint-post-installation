@@ -102,6 +102,9 @@ gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze_Snow'
 # Desktop.
 gsettings set org.cinnamon.theme name 'Mint-Y-Dark-Blue'
 
+## DELETING TRASH ##
+sudo apt install -f
+sudo apt autoremove -y
 
 ## REBOOTING ##
 echo "END !! Now your system is going to reboot"
