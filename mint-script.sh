@@ -20,6 +20,9 @@ cd /home/$USER/Downloads/Files
 #Chrome
 wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
+## Installing every .deb file
+sudo dpkg -i *.deb
+
 #Atom
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 
@@ -28,9 +31,6 @@ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ 
 sudo apt update
 
 sudo apt install atom -y
-
-## Installing every .deb file
-sudo dpkg -i *.deb
 
 ## Installing snapd ##
 sudo apt install snapd
@@ -96,6 +96,7 @@ gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze_Snow'
 gsettings set org.cinnamon.theme name 'Mint-Y-Dark-Blue'
 
 
-echo "END !!!!!!"
+echo "END !! Now your system is going to reboot"
 
+sudo reboot
 
