@@ -27,7 +27,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ 
 
 sudo apt update
 
-sudo apt install atom
+sudo apt install atom -y
 
 ## Installing every .deb file
 sudo dpkg -i *.deb
