@@ -101,6 +101,7 @@ gsettings set org.cinnamon.desktop.interface cursor-theme 'Breeze_Snow'
 gsettings set org.cinnamon.theme name 'Mint-Y-Dark-Blue'
 
 
+## REBOOTING ##
 echo "END !! Now your system is going to reboot"
 
 sudo reboot
