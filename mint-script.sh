@@ -37,6 +37,7 @@ sudo apt install atom -y
 sudo apm install styri-syntax -y
 sudo apm install autocomplete-python -y
 sudo apm install linter-pylama -y
+apm install platformio-ide-terminal -y
 
 ## Installing snapd ##
 sudo apt install snapd
