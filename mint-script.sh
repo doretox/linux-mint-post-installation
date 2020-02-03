@@ -32,6 +32,11 @@ sudo apt update
 
 sudo apt install atom -y
 
+#Atom themes and syntax
+
+sudo apm install styri-syntax -y
+
+
 ## Installing snapd ##
 sudo apt install snapd
 
