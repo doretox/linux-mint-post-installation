@@ -23,22 +23,6 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 ## Installing every .deb file
 sudo dpkg -i *.deb
 
-#Atom
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-
-sudo apt update
-
-sudo apt install atom -y
-
-#Atom themes and syntax
-
-sudo apm install styri-syntax -y
-sudo apm install autocomplete-python -y
-sudo apm install linter-pylama -y
-#apm install platformio-ide-terminal -y -> BUG
-
 ## Installing snapd ##
 sudo apt install snapd
 
