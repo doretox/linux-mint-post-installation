@@ -48,9 +48,6 @@ sudo apt install vlc -y
 #qbittorrent
 sudo apt install qbittorrent -y
 
-#Codecs
-sudo apt install mint-meta-codecs -y
-
 ## THEMES AND ICONS ##
 
 sudo add-apt-repository -y ppa:noobslab/themes
